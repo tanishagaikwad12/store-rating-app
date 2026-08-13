@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
+
+:root {
+    font-family: "DM Sans", sans-serif;
+
+    color: #f8fafc;
+    background: #060711;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --bg: #060711;
+    --surface: #0c0e19;
+    --surface-2: #111421;
+    --border: rgba(255, 255, 255, 0.08);
+
+    --text: #f8fafc;
+    --text-muted: #8b93a7;
+
+    --purple: #8b5cf6;
+    --purple-light: #a78bfa;
+    --blue: #60a5fa;
+
+    --gradient: linear-gradient(
+        110deg,
+        #7c3aed 0%,
+        #6366f1 50%,
+        #3b82f6 100%
+    );
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    min-height: 100%;
+    background: var(--bg);
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    min-width: 320px;
+    min-height: 100vh;
+    background: var(--bg);
+}
+
+body,
+button,
+input,
+textarea {
+    font-family: "DM Sans", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+button,
+input,
+textarea {
+    font-size: inherit;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #35304f transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #35304f;
+    border-radius: 999px;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+}
