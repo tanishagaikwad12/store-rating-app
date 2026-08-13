@@ -1,34 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
-
 :root {
     font-family: "DM Sans", sans-serif;
-
-    color: #f8fafc;
-    background: #060711;
-
+    color: #f4f3ff;
+    background: #05060c;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    --bg: #060711;
-    --surface: #0c0e19;
-    --surface-2: #111421;
-    --border: rgba(255, 255, 255, 0.08);
-
-    --text: #f8fafc;
-    --text-muted: #8b93a7;
-
-    --purple: #8b5cf6;
-    --purple-light: #a78bfa;
-    --blue: #60a5fa;
-
-    --gradient: linear-gradient(
-        110deg,
-        #7c3aed 0%,
-        #6366f1 50%,
-        #3b82f6 100%
-    );
 }
 
 * {
@@ -38,7 +15,7 @@
 html {
     width: 100%;
     min-height: 100%;
-    background: var(--bg);
+    background: #05060c;
 }
 
 body {
@@ -46,24 +23,7 @@ body {
     width: 100%;
     min-width: 320px;
     min-height: 100vh;
-    background: var(--bg);
-}
-
-body,
-button,
-input,
-textarea {
-    font-family: "DM Sans", sans-serif;
-}
-
-button {
-    cursor: pointer;
-}
-
-button,
-input,
-textarea {
-    font-size: inherit;
+    background: #05060c;
 }
 
 #root {
@@ -85,24 +45,6 @@ p {
 img {
     max-width: 100%;
     display: block;
-}
-
-* {
-    scrollbar-width: thin;
-    scrollbar-color: #35304f transparent;
-}
-
-*::-webkit-scrollbar {
-    width: 7px;
-}
-
-*::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-*::-webkit-scrollbar-thumb {
-    background: #35304f;
-    border-radius: 999px;
 }
 
 @media (max-width: 768px) {
